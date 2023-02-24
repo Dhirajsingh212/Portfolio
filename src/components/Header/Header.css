@@ -1,0 +1,23 @@
+.header{
+    position: absolute;
+    left: 5vh;
+    top: 20vh;
+    display: flex;
+}
+
+.header_info{
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.header_info h2{
+    font-size: 3em;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.header_info p{
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}

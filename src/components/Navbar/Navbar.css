@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.navbar h3{
+    font-family: 'Anton', sans-serif;
+    padding-top: 1em;
+}
+
+.navbar_info{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    gap: 5em;
+}
+
+.navbar_info a{
+    text-decoration: none;
+}
+
+.navbar_info p{
+    padding: 1em;
+}
+
+.navbar_info_contact{
+    background-color: #5321e5;
+}
