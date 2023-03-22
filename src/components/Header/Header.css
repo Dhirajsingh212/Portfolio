@@ -1,0 +1,45 @@
+.header{
+    position: absolute;
+    left: 5vh;
+    top: 20vh;
+    display: flex;
+}
+
+.header img{
+    width: 50%;
+}
+
+.header_info{
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.header_info h2{
+    font-size: 3em;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.header_info p{
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+    font-size: 1.2em;
+}
+
+.header_responsive{
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+        .header{
+            display: none;
+        }
+        .header_responsive{
+            display: block;
+        }
+        .header_responsive img{
+            margin-top: 1.5em;
+            width: 100%;
+        }
+}

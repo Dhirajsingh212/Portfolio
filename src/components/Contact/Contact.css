@@ -1,0 +1,28 @@
+.contact{
+    background-color: #181824;
+}
+
+.contact p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    color: gray;
+    padding-left: 3em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.contact_icons{
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:900px){
+    .contact p{
+        padding-left: 2em;
+        padding-bottom: 2em;
+    }
+}

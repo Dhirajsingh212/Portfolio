@@ -1,0 +1,89 @@
+.skills{
+    margin-top: 90vh;
+    max-width: 100%;
+    background-color: black;
+    padding-left: 3em;
+    padding-bottom: 5em;
+}
+
+.skills p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    color: gray;
+    padding: 3em 0 0.5em 0;
+}
+
+.skills h1{
+    font-size: 2.5em;
+    font-family: 'Shantell Sans', cursive;
+
+}
+
+.skills_info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 10vh;
+    gap: 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skills_card{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.skills_card h1{
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+    color: gray;
+    font-size: 4.5em;
+}
+
+.skills_card{
+    font-size: 1.2em;
+}
+
+.skills_card_icon_react{
+    color: aqua;
+}
+
+.skills_card_icon_node{
+    color: green;
+}
+
+.skills_card_icon_express{
+    color: yellow;
+}
+
+.skills_card_icon_mongodb{
+    color: rgb(30, 128, 0);
+}
+
+.skills_card_icon_html{
+    color: orangered;
+}
+
+.skills_card_icon_css{
+    color: aquamarine;
+}
+
+@media screen and (max-width:900px){
+    .skills{
+        margin-top: 0em;
+    }
+    .skills h1{
+        font-size: 1.5em;
+    }
+    .skills_info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-right: 1em;
+        padding-left: 0;
+    }
+    .skills_info span{
+        font-size: 0.7em;
+    }
+}
+

@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.navbar h3{
+    font-family: 'Anton', sans-serif;
+    padding-top: 1em;
+}
+
+.navbar_info{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    gap: 5em;
+}
+
+.navbar_info a{
+    text-decoration: none;
+}
+
+.navbar_info p{
+    padding: 1.5em;
+}
+
+.navbar_info_contact{
+    background-color: #5321e5;
+}
+
+.navbar_button{
+    display: none;
+}
+
+.navbar_button button{
+    border: none;
+    background-color: inherit;
+    font-size: 1em;
+}
+
+.navbar_ul_responsive{
+    display: none;
+    z-index: 999;
+}
+
+.navbar_ul_responsive a{
+    display: none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media screen and (max-width:900px) {
+    .navbar_info{
+        display: none;
+    }
+    .navbar_button{
+        display: flex;
+        padding-top: 1em;
+    }
+    .navbar_ul_responsive{
+        position: relative;
+        padding: 1em 2em 2em 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+    }
+    .navbar_ul_responsive a{
+        display: flex;
+    }
+}
